@@ -1,12 +1,12 @@
-# Project {{PROJECT}}: {{TITLE}}
+# Project 0: Practice: Monte Carlo for a European call
 
-Computational Finance projects 2026/27, group **{{GROUP}}**.
+Computational Finance projects 2026/27, group **G2**.
 
 | Member | GitHub |
 |---|---|
-{{MEMBERS_TABLE}}
+| Weronika Jaszkiewicz | [@werojskz](https://github.com/werojskz) |
 
-**Main reference:** {{REFERENCE}}
+**Main reference:** REFERENCE
 
 > If you see `{{...}}` placeholders above, the repository has not been
 > initialised yet: run `python tools/logtool.py init` (see the student manual).

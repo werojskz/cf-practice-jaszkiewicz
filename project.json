@@ -1,5 +1,15 @@
 {
-  "initialised": false,
+  "initialised": true,
   "instructor": "INSTRUCTOR-GITHUB",
-  "members": []
+  "members": [
+    {
+      "name": "Weronika Jaszkiewicz",
+      "github": "werojskz"
+    }
+  ],
+  "project": 0,
+  "title": "Practice: Monte Carlo for a European call",
+  "reference": "REFERENCE",
+  "group": "G2",
+  "repo_url": "https://github.com/werojskz/cf-practice-jaszkiewicz"
 }

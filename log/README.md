@@ -9,4 +9,6 @@ See [LOG_GUIDE.md](../LOG_GUIDE.md) for the rules.
 | Date | Entry | Author(s) |
 |---|---|---|
 
+Entries per member: Weronika Jaszkiewicz 0
+
 <!-- index:end -->
