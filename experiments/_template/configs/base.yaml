@@ -1,0 +1,10 @@
+# What this parameter set is for, in one line.
+# Every parameter the script uses, including the random seed, is set here.
+mu: 0.0
+sigma: 1.0
+n_samples: [100, 1_000, 10_000, 100_000]   # counts as integers; 1e5 is also accepted
+seed: 1
+
+# Overrides for a reduced test run:  python experiments/<name>/run.py base --quick
+quick:
+  n_samples: [100, 1_000]

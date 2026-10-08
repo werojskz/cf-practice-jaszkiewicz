@@ -1,0 +1,5 @@
+# Pin versions (pip freeze) once your environment works, e.g. numpy==2.1.3
+numpy
+scipy
+matplotlib
+pyyaml

@@ -1,0 +1,66 @@
+% Final report: AT MOST 5 PAGES from Section 1 to the end of Section 4,
+% including tables and figures. Title block, contributions and references
+% do not count. Do not summarise the paper: the reader knows it.
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,hyperref,xcolor}
+\usepackage[font=small]{caption}
+
+\newcommand{\repourl}{{{REPO_URL}}}
+% \logref{2026-10-27_effect-of-basis-degree} links to that log entry.
+\newcommand{\logref}[1]{\href{\repourl/blob/final/log/#1.md}{\texttt{\detokenize{log/#1}}}}
+
+\title{Project {{PROJECT}}: {{TITLE}}}
+\author{Group {{GROUP}}: {{MEMBERS_TEX}}}
+\date{Repository: \url{\repourl}, tag \texttt{final}}
+
+\begin{document}
+\maketitle
+
+% ---------------------------------------------------------------------------
+\section{Reproduction of published results}
+% At most 1 page. One table comparing your numbers with the paper's, with
+% standard errors. Explain discrepancies in a few sentences.
+
+\begin{table}[h]\centering
+\begin{tabular}{lrrrr}\toprule
+Case & Paper & Ours & s.e. & Difference \\\midrule
+ & & & & \\\bottomrule
+\end{tabular}
+\caption{\dots{} (Commands: REPRODUCE.md, Table 1.)}
+\end{table}
+
+% ---------------------------------------------------------------------------
+\section{Finding 1: \dots}
+% Each finding: one figure or table, at most ~200 words of text, and the
+% log entries that support it. Every table and figure must have a row in
+% REPRODUCE.md with the same name (e.g. "Figure 2"). Three findings in total (Sections 2-4 may be
+% renumbered). A finding is something you established by experiment, e.g.
+% "the choice X matters for reason Y and this is how much".
+
+Evidence: \logref{YYYY-MM-DD_short-title}.
+
+\section{Finding 2: \dots}
+
+\section{Finding 3: \dots}
+
+% ---------------------------------------------------------------------------
+\section{What did not work, and why}
+% At most half a page.
+
+\section{Limitations and next steps}
+% At most half a page.
+
+% ---------------------------------------------------------------------------
+\appendix
+\section*{Contributions}
+% One line per member: what they did, with the main log entries.
+\begin{tabular}{lp{12cm}}\toprule
+Member & Contribution \\\midrule
+{{MEMBERS_CONTRIB}}\bottomrule
+\end{tabular}
+
+\begin{thebibliography}{9}
+\bibitem{main} {{REFERENCE_TEX}}
+\end{thebibliography}
+\end{document}
