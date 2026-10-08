@@ -1,0 +1,12 @@
+# What this parameter set is for, in one line.
+# Every parameter the script uses, including the random seed, is set here.
+# European call, at the money
+S0: 100
+K: 100
+r: 0.05
+sigma: 0.2
+T: 1.0
+n_paths: [1_000, 10_000, 100_000, 1_000_000]
+seed: 1
+quick:
+  n_paths: [1_000, 10_000]
